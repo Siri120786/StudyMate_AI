@@ -1,0 +1,19 @@
+{
+  "name": "StudyMate AI",
+  "short_name": "StudyMate",
+  "description": "Turn notes into summaries, flashcards and quizzes, then track what you have mastered.",
+  "start_url": "/dashboard",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0e1416",
+  "theme_color": "#0e1416",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Focus timer", "url": "/focus" },
+    { "name": "Planner", "url": "/planner" }
+  ]
+}

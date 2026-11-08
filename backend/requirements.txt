@@ -1,0 +1,14 @@
+# Versions below are the ones the tests ran on; pip-audit reported no known vulnerabilities for them.
+fastapi==0.162.0
+starlette==1.10.0
+uvicorn[standard]==0.54.0
+google-genai==2.34.0
+supabase==2.33.0
+pypdf==6.21.4
+python-multipart==0.0.33
+python-dotenv==1.2.4
+python-docx==1.2.0
+beautifulsoup4==4.15.0
+youtube-transcript-api==1.2.4
+httpx==0.28.1
+PyJWT[crypto]==2.15.1

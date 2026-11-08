@@ -1,0 +1,98 @@
+{
+  "ran": "2026-11-06 22:28",
+  "base": "http://127.0.0.1:8000",
+  "limit_ms": 2000,
+  "pages": [
+    {
+      "page": "Dashboard",
+      "requests": 5,
+      "first_ms": 1125,
+      "median_ms": 685,
+      "worst_ms": 1125
+    },
+    {
+      "page": "Library",
+      "requests": 1,
+      "first_ms": 1538,
+      "median_ms": 513,
+      "worst_ms": 1538
+    },
+    {
+      "page": "Document summary",
+      "requests": 3,
+      "first_ms": 810,
+      "median_ms": 810,
+      "worst_ms": 819
+    },
+    {
+      "page": "Flashcards",
+      "requests": 1,
+      "first_ms": 820,
+      "median_ms": 820,
+      "worst_ms": 850
+    },
+    {
+      "page": "Quizzes list",
+      "requests": 1,
+      "first_ms": 409,
+      "median_ms": 409,
+      "worst_ms": 413
+    },
+    {
+      "page": "Quiz",
+      "requests": 1,
+      "first_ms": 376,
+      "median_ms": 414,
+      "worst_ms": 501
+    },
+    {
+      "page": "Analytics",
+      "requests": 1,
+      "first_ms": 423,
+      "median_ms": 478,
+      "worst_ms": 510
+    },
+    {
+      "page": "Planner",
+      "requests": 1,
+      "first_ms": 403,
+      "median_ms": 407,
+      "worst_ms": 515
+    },
+    {
+      "page": "Achievements",
+      "requests": 2,
+      "first_ms": 1050,
+      "median_ms": 892,
+      "worst_ms": 1430
+    },
+    {
+      "page": "Study groups",
+      "requests": 1,
+      "first_ms": 1228,
+      "median_ms": 1275,
+      "worst_ms": 1564
+    },
+    {
+      "page": "Mind map",
+      "requests": 1,
+      "first_ms": 955,
+      "median_ms": 819,
+      "worst_ms": 955
+    },
+    {
+      "page": "Cheat sheet",
+      "requests": 1,
+      "first_ms": 794,
+      "median_ms": 830,
+      "worst_ms": 924
+    },
+    {
+      "page": "Library search",
+      "requests": 1,
+      "first_ms": 328,
+      "median_ms": 410,
+      "worst_ms": 672
+    }
+  ]
+}

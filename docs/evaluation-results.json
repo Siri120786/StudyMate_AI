@@ -1,0 +1,73 @@
+{
+  "ran": "2026-11-04 20:17",
+  "results": {
+    "outline": {
+      "topics": 5,
+      "all_located_in_notes": 1.0,
+      "in_reading_order": true,
+      "pass": true,
+      "seconds": 192.1
+    },
+    "summaries": {
+      "beginner": {
+        "words": 155,
+        "grounding": 0.886,
+        "has_recap": true,
+        "seconds": 17.1
+      },
+      "intermediate": {
+        "words": 188,
+        "grounding": 0.863,
+        "has_recap": true,
+        "seconds": 16.6
+      },
+      "advanced": {
+        "words": 191,
+        "grounding": 0.871,
+        "has_recap": true,
+        "seconds": 18.2
+      },
+      "tiers_grow": true,
+      "pass": true
+    },
+    "quiz": {
+      "questions_returned": 10,
+      "question_types_present": [
+        "fill",
+        "mcq",
+        "short",
+        "tf"
+      ],
+      "answers_supported_by_notes": 1.0,
+      "explanations_supported_by_notes": 0.8,
+      "topics_match_outline": 1.0,
+      "seconds": 15.1,
+      "pass": true
+    },
+    "flashcards": {
+      "cards": 10,
+      "answers_supported_by_notes": 0.923,
+      "duplicate_fronts": 0,
+      "seconds": 29.0,
+      "pass": true
+    },
+    "explain": {
+      "good_explanation_score": 78,
+      "wrong_explanation_score": 0,
+      "gap_between": 78,
+      "seconds": 46.0,
+      "pass": true
+    },
+    "marking": {
+      "answers_marked_correctly": "5/5",
+      "seconds": 15.7,
+      "pass": true
+    },
+    "hindi": {
+      "devanagari_share_of_letters": 0.674,
+      "words": 200,
+      "seconds": 17.1,
+      "pass": true
+    }
+  }
+}

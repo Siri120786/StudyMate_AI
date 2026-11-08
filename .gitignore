@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+__pycache__/
+.venv/
+backend/static/
+
+backend/.demo-account.txt
+scripts/.translations.json.bak

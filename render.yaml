@@ -1,0 +1,31 @@
+# Render Blueprint: describes the whole service so it can be created from the GitHub repository in one step.
+# Render dashboard > New > Blueprint > pick the repository. Render then asks for the values marked "sync: false".
+services:
+  - type: web
+    name: studymate-ai
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free # sleeps after 15 minutes without visitors; see deploy/README.md for how to keep it awake
+    region: singapore # the closest Render region to India
+    healthCheckPath: /api/health
+    autoDeploy: true # a push to the main branch deploys it
+    envVars:
+      # Needed at build time too: the website is built with the public Supabase URL and key baked in.
+      - key: VITE_SUPABASE_URL
+        sync: false
+      - key: VITE_SUPABASE_ANON_KEY
+        sync: false
+      # Runtime secrets. They never go into the image or the repository.
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_AUDIO_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.6-flash
+      - key: GEMINI_FALLBACK_MODELS
+        value: gemini-3.8-flash,gemini-3.7-flash,gemini-3.5-flash-lite,gemini-3.1-flash-lite
